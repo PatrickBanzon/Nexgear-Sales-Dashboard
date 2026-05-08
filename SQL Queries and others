@@ -1,0 +1,21 @@
+-- SQL Query creating a view table for the number of units sold and number returned.
+CREATE OR REPLACE VIEW refunds_percentage AS
+	SELECT 
+		DATE_FORMAT(o.order_date, '%y-%m-%d') AS order_date,
+		o.product_id,
+		SUM(o.quantity) AS quantity_sold,
+		COUNT(r.refund_id) AS quantity_refunded
+	FROM orders AS o
+	LEFT JOIN refunds AS r
+		ON r.order_id = o.order_id
+	GROUP BY 
+		DATE_FORMAT(o.order_date, '%y-%m-%d'),
+		o.product_id
+
+-- Measure in PowerBI used to calculate the percentage 
+refund_rate = 
+DIVIDE(
+        SUM( Refunds_percentage[quantity_refunded] ),
+        SUM( Refunds_percentage[quantity_sold] ),
+        0
+)
