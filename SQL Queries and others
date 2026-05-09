@@ -12,7 +12,7 @@ CREATE OR REPLACE VIEW refunds_percentage AS
 		DATE_FORMAT(o.order_date, '%y-%m-%d'),
 		o.product_id
 
--- Measure in PowerBI used to calculate the percentage 
+-- Measure in PowerBI used to calculate the percentage of refund rate
 refund_rate = 
 DIVIDE(
         SUM( Refunds_percentage[quantity_refunded] ),
