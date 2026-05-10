@@ -11,6 +11,8 @@ The interactive PowerBI dashboard can be downloaded [here](https://github.com/Pa
 
 The SQL query and other formulas can be found [here](https://github.com/PatrickBanzon/Nexgear-Sales-Dashboard/blob/main/SQL%20Queries%20and%20others).
 
+<h1 align="center">My Project Title</h1>
+
 **Entity Relationship Diagram**
 ![Alt text](https://github.com/PatrickBanzon/Nexgear-Sales-Dashboard/blob/main/dashboard_screenshots/Nexgear%20entity%20relationship%20diagram.png)
 
