@@ -1,4 +1,4 @@
-  <h1 align="center">**Company Background**</h1>
+  <h1 align="center">Company Background</h1>
 
 Nexgear is an ecommerce company founded in Jan 2019, it is focused on selling electronics gadgets and computer peripherals worldwide through its website and mobile app. 
 
@@ -11,7 +11,7 @@ The interactive PowerBI dashboard can be downloaded [here](https://github.com/Pa
 
 The SQL query and other formulas can be found [here](https://github.com/PatrickBanzon/Nexgear-Sales-Dashboard/blob/main/SQL%20Queries%20and%20others).
 
- <p align="center">**Entity Relationship Diagram**</p>
+**Entity Relationship Diagram**
  
 ![Alt text](https://github.com/PatrickBanzon/Nexgear-Sales-Dashboard/blob/main/dashboard_screenshots/Nexgear%20entity%20relationship%20diagram.png)
 
@@ -28,6 +28,7 @@ Starting from the Q1 of 2020 the overall sales of the business has risen to unpr
 •	Overall direction of the total revenue leans towards a flat growth rate as the Q1 of 2021 and Q1 of 2020 has a negative -25% growth rate signaling that post pandemic changes are negatively affecting the willingness and ability of consumers to buy our products.
 
 **Quarterly revenue**
+
 ![Alt text](https://github.com/PatrickBanzon/Nexgear-Sales-Dashboard/blob/main/dashboard_screenshots/Quarterly%20revenue.png)
 
 **Product Performance**
@@ -39,6 +40,7 @@ Starting from the Q1 of 2020 the overall sales of the business has risen to unpr
 •	In marketing channel, direct sales accounts for 79.5% products sold affiliate, email and social media are falling behind expectations. Strategy and overall plans need to be revised.
 
 **Revenue per Product**
+
 ![Alt text](https://github.com/PatrickBanzon/Nexgear-Sales-Dashboard/blob/main/dashboard_screenshots/Product%20revenue%20stacked%20bar%20chart.png)
 
 **Recommendations**
