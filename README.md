@@ -7,6 +7,6 @@ Insights and recommendations are provided on the following key areas:
 -	Sales trend analysis
 -	Product level performance
 
-The interactive PowerBI dashboard can be downloaded here or only screenshots if you don’t have Power BI.
-The SQL query and other formulas can be found here.
+The interactive PowerBI dashboard can be downloaded [here](https://github.com/PatrickBanzon/Nexgear-Sales-Dashboard/blob/main/Nexgear%20dashboard.pbix) or only [screenshots](https://github.com/PatrickBanzon/Nexgear-Sales-Dashboard/tree/main/dashboard_screenshots) if you don’t have Power BI.
+The SQL query and other formulas can be found [here](https://github.com/PatrickBanzon/Nexgear-Sales-Dashboard/blob/main/SQL%20Queries%20and%20others).
 
