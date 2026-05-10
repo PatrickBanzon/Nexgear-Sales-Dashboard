@@ -15,6 +15,7 @@ The SQL query and other formulas can be found [here](https://github.com/PatrickB
  
 ![Alt text](https://github.com/PatrickBanzon/Nexgear-Sales-Dashboard/blob/main/dashboard_screenshots/Nexgear%20entity%20relationship%20diagram.png)
 
+
 **Executive Summary**
 
 Starting from the Q1 of 2020 the overall sales of the business has risen to unprecedented levels that it already has eclipsed the previous years peak period. The surge in demand is overwhelmingly due to outside forces as the company and the industry overall has not made any significant change but has only adapted delivery services as part of Covid 19 restrictions.
@@ -31,6 +32,7 @@ Starting from the Q1 of 2020 the overall sales of the business has risen to unpr
 
 ![Alt text](https://github.com/PatrickBanzon/Nexgear-Sales-Dashboard/blob/main/dashboard_screenshots/Quarterly%20revenue.png)
 
+
 **Product Performance**
 
 •	The overwhelming share of the revenues comes from 3 products only its combined revenue share comes to $4.7M or 92.5% total of overall sales. These are 27 inches 4K gaming monitor, Nintendo Switch, and Sony PlayStation 5 Bundle. The lack of diversification in products makes it more likely that a drop in a single product in revenue will have significant to severe effects in total revenue.
@@ -42,6 +44,7 @@ Starting from the Q1 of 2020 the overall sales of the business has risen to unpr
 **Revenue per Product**
 
 ![Alt text](https://github.com/PatrickBanzon/Nexgear-Sales-Dashboard/blob/main/dashboard_screenshots/Product%20revenue%20stacked%20bar%20chart.png)
+
 
 **Recommendations**
 
