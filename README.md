@@ -1,4 +1,4 @@
-**Company Background**
+  <h1 align="center">**Company Background**</h1>
 
 Nexgear is an ecommerce company founded in Jan 2019, it is focused on selling electronics gadgets and computer peripherals worldwide through its website and mobile app. 
 
@@ -11,9 +11,8 @@ The interactive PowerBI dashboard can be downloaded [here](https://github.com/Pa
 
 The SQL query and other formulas can be found [here](https://github.com/PatrickBanzon/Nexgear-Sales-Dashboard/blob/main/SQL%20Queries%20and%20others).
 
-<h1 align="center">My Project Title</h1>
-
-**Entity Relationship Diagram**
+ <p align="center">**Entity Relationship Diagram**</p>
+ 
 ![Alt text](https://github.com/PatrickBanzon/Nexgear-Sales-Dashboard/blob/main/dashboard_screenshots/Nexgear%20entity%20relationship%20diagram.png)
 
 **Executive Summary**
