@@ -2,7 +2,8 @@
 
 Nexgear is an ecommerce company founded in Jan 2019, it is focused on selling electronics gadgets and computer peripherals worldwide through its website and mobile app. 
 
-In recent years the company has seen explosive growth (2019 – 2021) in sales and is assessing if the growth is sustainable or should the company expect sales to plateau or even decline. Other regions such as South America and Asia has been growing market but market share remains to be small. Refund rates are high on some products for certain months.
+In recent years the company has seen explosive growth (2019 – 2021) in sales and is assessing if the growth is sustainable or should the company expect sales to plateau or even decline. Other regions such as South America and Asia has been growing but market share remains to be small. A couple of products has been performing exceptionally but the rest of the product line up is negligeble in terms of revenue.
+
 Insights and recommendations are provided on the following key areas:
 -	Sales trend analysis
 -	Product level performance
