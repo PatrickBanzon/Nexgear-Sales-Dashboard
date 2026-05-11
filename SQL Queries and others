@@ -1,16 +1,17 @@
--- SQL Query creating a view table for the number of units sold and number returned.
+-- Query creating a view table for the number of units sold and number returned.
 CREATE OR REPLACE VIEW refunds_percentage AS
 	SELECT 
 		DATE_FORMAT(o.order_date, '%y-%m-%d') AS order_date,
 		o.product_id,
 		SUM(o.quantity) AS quantity_sold,
 		COUNT(r.refund_id) AS quantity_refunded
-	FROM orders AS o
-	LEFT JOIN refunds AS r
+	FROM fact_orders AS o
+	LEFT JOIN fact_refunds AS r
 		ON r.order_id = o.order_id
 	GROUP BY 
 		DATE_FORMAT(o.order_date, '%y-%m-%d'),
 		o.product_id
+
 
 -- Measure in PowerBI used to calculate the percentage of refund rate
 refund_rate = 
@@ -19,3 +20,29 @@ DIVIDE(
         SUM( Refunds_percentage[quantity_sold] ),
         0
 )
+
+
+-- Percentage of sales per marketing channel
+SELECT 
+	marketing_channel,
+    SUM(quantity),
+    SUM(quantity) / 
+    (SELECT COUNT(*) FROM fact_orders) AS perc_marketing_share
+FROM fact_orders
+GROUP BY marketing_channel
+
+
+- Quarterly Revenue
+SELECT 
+	YEAR(order_date),
+    QUARTER(order_date),
+    SUM(price) AS revenue
+FROM fact_orders
+GROUP BY  	
+	YEAR(order_date),
+	QUARTER(order_date)
+ORDER BY 
+    YEAR(order_date) ASC
+
+
+
