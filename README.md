@@ -1,6 +1,6 @@
   <h1 align="center">Company Background</h1>
 
-Nexgear is an ecommerce company founded in January 2019, the company is focused on selling electronics gadgets and computer peripherals worldwide through its website and mobile app. 
+NexGear is an ecommerce company founded in January 2019, the company is focused on selling electronics gadgets and computer peripherals worldwide through its website and mobile app. 
 
 In recent years the company has seen explosive growth (2019 – 2021) in sales and is assessing if the growth is sustainable or should the company expect sales to plateau or even decline. Other regions such as South America and Asia have been growing but market share remains to be small. A couple of products have been performing exceptionally but the rest of the rest of the product lineup contributes minimally to revenue.
 
